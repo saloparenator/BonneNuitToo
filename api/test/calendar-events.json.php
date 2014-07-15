@@ -1,6 +1,18 @@
+<?php 
+header('Content-Type: text/javascript');
+?>
+
 {
 	"success": 1,
 	"result": [
+		{
+			"id": "1000",
+			"title": "TEST",
+			"url": "http://www.example.com/",
+			"class": "event-warning",
+			"start": "1362938400000",
+			"end":   "1903197686300"
+		},
 		{
 			"id": "293",
 			"title": "This is warning class event with very long title to check how it fits to evet in day view",
